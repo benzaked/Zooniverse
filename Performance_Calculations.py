@@ -10,7 +10,25 @@ from PopularityBased import PopularityBased
 # from ContentBased import ContentBased
 from Recommender import is_online_project_recommended
 from SVD import SVD
-ex
+import logging
+import gc
+gc.collect()
+# create logger with 'spam_application'
+logger = logging.getLogger('rec_output')
+logger.setLevel(logging.DEBUG)
+# create file handler which logs even debug messages
+fh = logging.FileHandler('rec_output.log')
+fh.setLevel(logging.DEBUG)
+# create console handler with a higher log level
+ch = logging.StreamHandler()
+ch.setLevel(logging.ERROR)
+# create formatter and add it to the handlers
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+fh.setFormatter(formatter)
+ch.setFormatter(formatter)
+# add the handlers to the logger
+logger.addHandler(fh)
+logger.addHandler(ch)
 
 
 
