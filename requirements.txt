@@ -1,0 +1,17 @@
+requests
+json
+numpy
+pandas
+scipy
+scikit-learn
+more_itertools
+flask
+flask-restful 
+webargs
+datetime
+random
+csv
+shapely
+ast
+ip2geotools
+

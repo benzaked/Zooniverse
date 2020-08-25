@@ -1,0 +1,1 @@
+{'user_profile_id': None, 'algorithm': 'Popularity', 'recommendations': [94, 115, 106], 'timestamp': '2020-05-19 12:05:30.839764', 'is_online_added': 0, 'ip_address': None},{'user_profile_id': None, 'algorithm': 'Popularity', 'recommendations': [94, 115, 106], 'timestamp': '2020-05-19 12:23:33.934721', 'is_online_added': 0, 'ip_address': None},
